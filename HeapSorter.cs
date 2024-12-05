@@ -61,9 +61,9 @@ public class HeapSorter
 
     public static void Main(string[] args)
     {
-        int[] numbers = { 4, 10, 3, 5, 1 }; // Исходный массив
+        int[] numbers = { 5, 120, 23, 45, 13 }; // Исходный массив
         Sort(numbers); // Сортировка массива
 
-        Console.WriteLine(string.Join(", ", numbers)); // Вывод отсортированного массива: [1, 3, 4, 5, 10]
+        Console.WriteLine(string.Join(", ", numbers)); // Вывод отсортированного массива: [5, 13, 23, 45, 120]
     }
 }
